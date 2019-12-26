@@ -22,6 +22,9 @@ class App extends Component {
         <UserOutput username={this.state.username}/>
         <UserOutput username={this.state.username}/>
         <UserOutput username={this.state.username}/>
+        <UserOutput username={this.state.username} />
+        <UserOutput username={this.state.username} />
+        <UserOutput username={this.state.username} />
       </div>
     );
   }
