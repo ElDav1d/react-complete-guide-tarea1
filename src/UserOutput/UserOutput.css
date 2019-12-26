@@ -1,0 +1,13 @@
+.rgdt1-UserOutput_Container { 
+    display: inline-block;
+    width: 28.333333%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.rgdt1-UserOutput_Container:not(:last-child) {
+    margin-right: 1rem;
+}

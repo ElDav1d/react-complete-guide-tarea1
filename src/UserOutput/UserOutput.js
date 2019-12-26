@@ -1,10 +1,11 @@
 import React from 'react';
+import './UserOutput.css';
 
 const userOutput = (props) => {
     return (
-        <div>
-            <p>Hello app!</p>
-            <p>My username is {props.username}</p>
+        <div className="rgdt1-UserOutput_Container">
+            <h2>Hello app!</h2>
+            <p>My username is <b>{props.username}</b></p>
         </div>
     );
 };
