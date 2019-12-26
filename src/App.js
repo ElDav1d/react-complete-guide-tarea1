@@ -9,7 +9,9 @@ class App extends Component {
       <div className="App">
         <h1>Hello world!</h1>
         <UserInput />
-        <UserOutput />
+        <UserOutput username="Fulano"/>
+        <UserOutput username="Mengano"/>
+        <UserOutput username="Tontano"/>
       </div>
     );
   }

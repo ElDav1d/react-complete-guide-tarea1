@@ -3,8 +3,8 @@ import React from 'react';
 const userOutput = (props) => {
     return (
         <div>
-            <p>I'm paragraph 1</p>
-            <p>I'm paragraph 2</p>
+            <p>Hello app!</p>
+            <p>My username is {props.username}</p>
         </div>
     );
 };
