@@ -6,7 +6,13 @@ import UserOutput from './UserOutput/UserOutput';
 class App extends Component {
   state = {
     username: 'sameForAll'
-  }
+  };
+
+  userNameInputHandler = (event) => {
+    this.setState({
+      username: event.target.value
+    })
+  };
 
   render() {
     return (
